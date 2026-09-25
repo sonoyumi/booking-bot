@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Bookings contain personal data: never commit them
+data/
+*.db
+*.db-wal
+*.db-shm
+config/services.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
